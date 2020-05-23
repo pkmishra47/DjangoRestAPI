@@ -59,6 +59,7 @@ class GetAllTransactions(APIView):
     '''
     To list all transaction on most recent first fashion. Request should have contact_number,offset
     and total_count parameters in request. 
+    
     '''
     def __init__(self):
         pass
