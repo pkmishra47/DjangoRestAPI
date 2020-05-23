@@ -28,5 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         cd mastermind
-        python manage.py runserver
+        python manage.py runserver &
         python manage.py test
